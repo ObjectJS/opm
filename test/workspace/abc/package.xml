@@ -1,0 +1,11 @@
+<package id="abc">
+
+	<source>
+		<combine path="abc.js">
+			<include path="a.js" />
+			<include path="b.js" />
+			<include path="c.js" />
+		</combine>
+	</source>
+
+</package>
