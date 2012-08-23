@@ -2,7 +2,7 @@
 	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
 	"name": "objectjs-opm",
 	"description": "ObjectJS Package Manager",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "http://objectjs.org/opm",
 	"repository": {
 		"url": "git://github.com/ObjectJS/opm.git"
