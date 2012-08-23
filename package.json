@@ -1,27 +1,27 @@
 {
-  "author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
-  "name": "objectjs-opm",
-  "description": "ObjectJS Package Manager",
-  "version": "0.0.1",
-  "homepage": "http://objectjs.org/opm",
-  "repository": {
-    "url": "git://github.com/ObjectJS/opm.git"
-  },
-  "dependencies": {
-	"async" : "x",
-	"coffee-script": "x",
-	"commander": ">= 0.5.2",
-	"cssom": "x",
-	"minimatch": "x",
-	"nconf": "x",
-	"pkginfo": "x",
-    "uglify-js": ">= 1.1.1",
-	"xmldom": ">= 0.1.11",
-	"xpath": ">= 0.0.5"
-  },
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": ">= 0.8.0"
-  }
+	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
+	"name": "objectjs-opm",
+	"description": "ObjectJS Package Manager",
+	"version": "0.0.1",
+	"homepage": "http://objectjs.org/opm",
+	"repository": {
+		"url": "git://github.com/ObjectJS/opm.git"
+	},
+	"dependencies": {
+		"async" : "x",
+		"coffee-script": "x",
+		"commander": ">= 0.5.2",
+		"cssom": "x",
+		"minimatch": "x",
+		"nconf": "x",
+		"pkginfo": "x",
+		"uglify-js": ">= 1.1.1",
+		"xmldom": ">= 0.1.11",
+		"xpath": ">= 0.0.5"
+	},
+	"devDependencies": {},
+	"optionalDependencies": {},
+	"engines": {
+		"node": ">= 0.8.0"
+	}
 }
