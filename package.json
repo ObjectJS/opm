@@ -18,11 +18,20 @@
 		"minimatch": "x",
 		"nconf": "x",
 		"pkginfo": "x",
+		"erequire" : "x",
+		"npm-registry-client" : "x",
+		"npm" : "x",
+		"request" : "x",
+		"tar" : "x",
+		"zlib" : "x",
+		"mkdirp": "x",
 		"uglify-js": ">= 1.1.1",
 		"xmldom": ">= 0.1.11",
 		"xpath": ">= 0.0.5"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"mocha" : "x"
+	},
 	"optionalDependencies": {},
 	"engines": {
 		"node": ">= 0.8.0"
