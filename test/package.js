@@ -1,18 +1,14 @@
 var assert = require('assert');
 var path = require('path');
-var pkg = require('../lib/opm/package');
-var package = new pkg.Package(path.join(__dirname, 'workspace/abc'));
+var opm = require('../lib/opm');
 
 describe('build', function() {
-	it('should loaded', function(done) {
-		package.load(function() {
-			done();
-		});
-	});
 	it('should built', function(done) {
-		package.buildFile('abc.js', function(err, content) {
-			console.log(content, err);
-			done();
+		opm.getPackage(path.join(__dirname, 'workspace/abc'), function(err, package) {
+			package.buildFile('abc.js', function(err, content) {
+				console.log(content, err);
+				done();
+			});
 		});
 	});
 });
