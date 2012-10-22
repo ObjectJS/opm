@@ -20,6 +20,7 @@
 		"pkginfo": "x",
 		"erequire" : "x",
 		"npm-registry-client" : "x",
+		"npmlog" : "x",
 		"npm" : "x",
 		"request" : "x",
 		"tar" : "x",
