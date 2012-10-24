@@ -27,6 +27,7 @@
 		"zlib" : "x",
 		"mkdirp": "x",
 		"fstream": "x",
+		"b2t": "x",
 		"wrench": "x",
 		"uglify-js": ">= 1.1.1",
 		"xmldom": ">= 0.1.11",
