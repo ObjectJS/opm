@@ -9,7 +9,7 @@
 	},
 	"bin": {
 		"opm": "./bin/opm",
-		"spm": "./bin/opm"
+		"bpm": "./bin/opm"
 	},
 	"dependencies": {
 		"async" : "x",
