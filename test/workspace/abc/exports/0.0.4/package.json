@@ -1,9 +1,0 @@
-{
-	"name": "abc",
-	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
-	"description": "ObjectJS Package Manager",
-	"version": "0.0.4",
-	"dependencies": {
-		"test" : "x"
-	}
-}
