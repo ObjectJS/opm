@@ -8,7 +8,8 @@
 		"url": "git://github.com/ObjectJS/opm.git"
 	},
 	"bin": {
-		"opm": "./bin/opm"
+		"opm": "./bin/opm",
+		"spm": "./bin/opm"
 	},
 	"dependencies": {
 		"async" : "x",
