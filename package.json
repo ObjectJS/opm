@@ -2,7 +2,7 @@
 	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
 	"name": "objectjs-opm",
 	"description": "ObjectJS Package Manager",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"homepage": "http://objectjs.org/opm",
 	"repository": {
 		"url": "git://github.com/ObjectJS/opm.git"
@@ -19,7 +19,7 @@
 		"minimatch": "x",
 		"nconf": "x",
 		"pkginfo": "x",
-		"erequire" : "x",
+		"extension.js" : "x",
 		"npm-registry-client" : "x",
 		"init-package-json": "x",
 		"npmlog" : "x",
