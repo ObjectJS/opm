@@ -1,0 +1,8 @@
+{
+	"name": "etao.ux.x1_abc", // 格式：命名空间_组建名
+	"version": "0.0.1", // 版本
+	"dependencies": {
+		"namespace_1.abc" : "latest", // 版本只有两种写法，latest或者确定某一版本，不支持版本范围或x的写法
+		"namespace_2.abc" : "0.0.2"
+	}
+}

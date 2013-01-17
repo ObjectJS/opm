@@ -1,0 +1,12 @@
+{
+	"name": "etao.ux.x1", // 命名空间
+	"version": "0.0.3", // 版本，暂时没什么用
+	"repository": {
+		"type": "svn",
+		"url": "http://svn.a.b.com/"
+	},
+	"bpm": {
+		"title": "项目名称", // 中文标题，在后台中展示用
+		"description": "brix测试项目" // 中文描述
+	}
+}
