@@ -10,7 +10,7 @@ npm install objectjs-opm
 
 ```bpm install namespace_component```
 
-组件会被安装到 imports/_namespace_/_component_/_version_/ 目录中
+组件会被安装到 imports/ _namespace_ / _component_ / _version_ / 目录中
 
 ## 在组件目录中：
 
@@ -24,4 +24,4 @@ npm install objectjs-opm
 
 ```bpm publish```
 
-将组件发布到中央库，并同时存放在 exports/_component_/_version_/ 目录中
+将组件发布到中央库，并同时存放在 exports/ _component_ / _version_ / 目录中
