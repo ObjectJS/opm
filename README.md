@@ -1,6 +1,6 @@
 # 安装
 
-npm install objectjs-opm
+npm install brix-bpm
 
 # 使用：
 
