@@ -8,20 +8,26 @@ npm install brix-bpm
 
 ### 安装组件
 
-```bpm install namespace_component```
+```shell
+bpm install namespace_component
+```
 
-组件 __及其依赖__ 会被安装到 imports/ _namespace_ / _component_ / _version_ / 目录中
+组件 __及其依赖__ 会被安装到 <code>imports/<var>namespace</var>/<var>component</var>/<var>version</var>/</code> 目录中
 
 ## 在组件目录中：
 
 ### 初始化组件
 
-```bpm init```
+```shell
+bpm init
+```
 
 会生成一个 package.json
 
 ### 发布组件
 
-```bpm publish```
+```shell
+bpm publish
+```
 
-将组件发布到中央库，并同时存放在 exports/ _component_ / _version_ / 目录中
+将组件发布到中央库，并同时存放在 <code>exports/<var>component</var>/<var>version</var>/</code> 目录中
