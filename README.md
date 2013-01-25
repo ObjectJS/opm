@@ -10,7 +10,7 @@ npm install brix-bpm
 
 ```bpm install namespace_component```
 
-组件会被安装到 imports/ _namespace_ / _component_ / _version_ / 目录中
+组件 __及其依赖__ 会被安装到 imports/ _namespace_ / _component_ / _version_ / 目录中
 
 ## 在组件目录中：
 
