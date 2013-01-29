@@ -8,8 +8,7 @@
 		"url": "git://github.com/etaoux/bpm.git"
 	},
 	"bin": {
-		"opm": "./bin/opm",
-		"bpm": "./bin/opm"
+		"opm": "./bin/opm"
 	},
 	"dependencies": {
 		"async" : "x",
