@@ -16,6 +16,12 @@ bpm 同 npm 一样，发布组件前需要在注册服务器上进行注册，�
 
 ## 在工程目录中：
 
+### 初始化工程
+
+请自行在工程目录中写一个 <var>package.json</var>，用于描述此工程的一些信息。
+
+[这里](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/package.example.json)有一个例子。
+
 ### 安装组件
 
 ```shell
@@ -32,7 +38,9 @@ bpm install namespace_component
 bpm init
 ```
 
-会生成一个 package.json
+会生成一个 package.json，其中的 name 是 <var>namespace</var>\_<var>subname</var> 格式的， <var>version</var> 为必选。<var>dependencies</var> 用于配置此组件的依赖，当组件被安装时，其依赖也会被安装到 <var>imports</var> 目录中。
+
+[这里](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/components/abc/package.example.json)有一个例子。
 
 ### 发布组件
 
