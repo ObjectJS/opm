@@ -26,6 +26,7 @@
 		"npm" : "x",
 		"request" : "x",
 		"tar" : "x",
+		"glob": "x",
 		"mkdirp": "x",
 		"fstream": "x",
 		"b2t": "x",
