@@ -4,7 +4,7 @@ bpm 是为 brix 提供的面向组件开发，基于 npm 的包管理工具。
 
 # 安装
 
-npm install brix-bpm
+npm install brix-bpm -g
 
 # 使用：
 
