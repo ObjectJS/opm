@@ -4,7 +4,9 @@ bpm 是为 brix 提供的面向组件开发，基于 npm 的包管理工具。
 
 # 安装
 
+```bash
 npm install brix-bpm -g
+```
 
 # 使用：
 
@@ -60,8 +62,14 @@ bpm install namespace_component
 bpm init
 ```
 
-会生成一个 package.json，其中的 name 是 `namespace\_subname` 格式的，`version` 必选。
-`dependencies` 用于配置此组件的依赖，当组件被安装时，其依赖也会被安装到 `imports` 目录中，比如：
+会生成一个 `package.json` 文件，以下两项必选：
+
+ - `name`，格式如 `namespace_subname`
+ - `version`，建议采用 [semver](http://semver.org/) 规范（[中文版](http://www.cnblogs.com/yaoxing/archive/2012/05/14/semantic-versioning.html)）
+
+另外，还可以用 `dependencies` 配置此组件的依赖。当组件被安装时，其依赖也会被安装到 `imports` 目录中。
+
+`package.json` 示例如下：
 
 ```js
 {
@@ -78,4 +86,7 @@ bpm init
 bpm publish
 ```
 
-将组件发布到中央库，并同时存放在 exports/component/version/ 目录中
+将组件发布到中央库，并同时存放在 `exports/component/version/` 目录中。
+
+发布完成之后，可以到 [一淘 UX 规范中心](http://ux.etao.com/jades) 查看
+（由于定时任务暂时还没跑起来，需要知会逸才手工同步）。
