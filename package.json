@@ -2,7 +2,7 @@
 	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
 	"name": "brix-bpm",
 	"description": "Brix Package Manager",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"homepage": "https://github.com/etaoux/bpm",
 	"repository": {
 		"url": "git://github.com/etaoux/bpm.git"
