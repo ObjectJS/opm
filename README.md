@@ -2,13 +2,13 @@
 
 bpm 是为 brix 提供的面向组件开发，基于 npm 的包管理工具。
 
-## 安装
+# 安装
 
 ```bash
 npm install brix-bpm -g
 ```
 
-## 配置
+# 配置
 
 在使用之前，需要做一下简单配置。
 
@@ -26,9 +26,9 @@ Linux 用户，不用我说 HOME 在哪儿了吧。
 registry = http://githop.etao.net:5984/registry/_design/app/_rewrite
 ```
 
-## 使用：
+# 使用
 
-### 注册
+## 注册
 
 bpm 同 npm 一样，发布组件前需要在注册服务器上进行注册，命令是：
 
@@ -41,7 +41,7 @@ bpm adduser
 需要注意的是，这里的验证信息在本机保存在 npm 的配置信息里，为避免 bpm 注册后 npm 无法使用，
 请使用同样的用户名密码进行注册。
 
-### 初始化工程
+## 初始化工程
 
 请自行在工程目录中写一个 package.json，用于描述此工程的一些信息，例如：
 
@@ -62,7 +62,7 @@ bpm adduser
 
 [参考此例](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/package.example.json)。
 
-### 安装组件
+## 安装组件
 
 在工程目录中执行：
 
@@ -72,7 +72,7 @@ bpm install namespace_component
 
 组件 __及其依赖__ 会被安装到 `imports/namespace/component/version/` 目录中
 
-### 初始化组件
+## 初始化组件
 
 在组件目录中执行：
 
@@ -98,7 +98,7 @@ bpm init
 
 [参考此例](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/components/abc/package.example.json)。
 
-### 发布组件
+## 发布组件
 
 在组件目录中执行：
 
