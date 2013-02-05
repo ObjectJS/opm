@@ -2,15 +2,33 @@
 
 bpm 是为 brix 提供的面向组件开发，基于 npm 的包管理工具。
 
-# 安装
+## 安装
 
 ```bash
 npm install brix-bpm -g
 ```
 
-# 使用：
+## 配置
 
-## 注册
+在使用之前，需要做一下简单配置。
+
+Mac 用户，请在 `/Users/<你的用户名>/` 目录下创建 `.opmrc` 文件。
+
+PC 用户，请在你的环境变量 PATH 所设目录下创建 `.opmrc` 文件，Windows 7 以下版本的用户，
+一般这个目录在 `C:\Documents and Settings\<你的用户名>`，而 Windows 7 与 8 下，
+这个目录应该在 `C:\User\<你的用户名>`。
+
+Linux 用户，不用我说 HOME 在哪儿了吧。
+
+`.omprc` 文件内容如下：
+
+```ini
+registry = http://githop.etao.net:5984/registry/_design/app/_rewrite
+```
+
+## 使用：
+
+### 注册
 
 bpm 同 npm 一样，发布组件前需要在注册服务器上进行注册，命令是：
 
@@ -23,11 +41,9 @@ bpm adduser
 需要注意的是，这里的验证信息在本机保存在 npm 的配置信息里，为避免 bpm 注册后 npm 无法使用，
 请使用同样的用户名密码进行注册。
 
-## 在工程目录中：
-
 ### 初始化工程
 
-请自行在工程目录中写一个 package.json，用于描述此工程的一些信息，例如：
+请自行**在工程目录中**写一个 package.json，用于描述此工程的一些信息，例如：
 
 ```js
 {
@@ -81,6 +97,9 @@ bpm init
 [参考此例](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/components/abc/package.example.json)。
 
 ### 发布组件
+
+在组件目录中：
+
 
 ```shell
 bpm publish
