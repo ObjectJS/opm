@@ -43,7 +43,7 @@ bpm adduser
 
 ### 初始化工程
 
-请自行**在工程目录中**写一个 package.json，用于描述此工程的一些信息，例如：
+请自行在工程目录中写一个 package.json，用于描述此工程的一些信息，例如：
 
 ```js
 {
@@ -64,15 +64,17 @@ bpm adduser
 
 ### 安装组件
 
+在工程目录中执行：
+
 ```shell
 bpm install namespace_component
 ```
 
 组件 __及其依赖__ 会被安装到 `imports/namespace/component/version/` 目录中
 
-## 在组件目录中：
-
 ### 初始化组件
+
+在组件目录中执行：
 
 ```shell
 bpm init
@@ -98,8 +100,7 @@ bpm init
 
 ### 发布组件
 
-在组件目录中：
-
+在组件目录中执行：
 
 ```shell
 bpm publish
