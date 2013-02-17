@@ -59,18 +59,6 @@ bpm adduser
 
 [参考此例](https://github.com/etaoux/bpm-test/blob/master/projects/etao.ux.x1/package.example.json)。
 
-## 安装组件
-
-在工程目录中执行：
-
-```shell
-bpm install namespace_component
-```
-
-组件 __及其依赖__ 会被安装到 `imports/namespace/component/version/` 目录中
-
-可安装组件可到[中心库](http://ux.etao.com/jades/)查询
-
 ## 初始化组件
 
 在组件目录中执行：
@@ -109,6 +97,18 @@ bpm publish
 
 发布完成之后，可以到 [一淘 UX 规范中心](http://ux.etao.com/jades) 查看
 （由于定时任务暂时还没跑起来，需要知会逸才手工同步）。
+
+## 安装组件
+
+在工程目录中执行：
+
+```shell
+bpm install namespace_component
+```
+
+组件 __及其依赖__ 会被安装到 `imports/namespace/component/version/` 目录中
+
+可安装组件可到[中心库](http://ux.etao.com/jades/)查询
 
 # 升级
 
