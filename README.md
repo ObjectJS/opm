@@ -69,6 +69,8 @@ bpm install namespace_component
 
 组件 __及其依赖__ 会被安装到 `imports/namespace/component/version/` 目录中
 
+可安装组件可到[中心库](http://ux.etao.com/jades/)查询
+
 ## 初始化组件
 
 在组件目录中执行：
