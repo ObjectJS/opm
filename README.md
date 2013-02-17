@@ -61,7 +61,7 @@ bpm adduser
 
 ## 初始化组件
 
-在组件目录中执行：
+在组件目录中( _components/component_name_ )执行：
 
 ```shell
 bpm init
