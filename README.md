@@ -8,24 +8,6 @@ bpm 是为 brix 提供的面向组件开发，基于 npm 的包管理工具。
 npm install brix-bpm -g
 ```
 
-# 配置
-
-在使用之前，需要做一下简单配置。
-
-Mac 用户，请在 `/Users/<你的用户名>/` 目录下创建 `.opmrc` 文件。
-
-PC 用户，请在你的环境变量 PATH 所设目录下创建 `.opmrc` 文件，Windows 7 以下版本的用户，
-一般这个目录在 `C:\Documents and Settings\<你的用户名>`，而 Windows 7 与 8 下，
-这个目录应该在 `C:\User\<你的用户名>`。
-
-Linux 用户，不用我说 HOME 在哪儿了吧。
-
-`.omprc` 文件内容如下：
-
-```ini
-registry = http://githop.etao.net:5984/registry/_design/app/_rewrite
-```
-
 # 使用
 
 ## 注册
