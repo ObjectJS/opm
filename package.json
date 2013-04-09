@@ -16,7 +16,6 @@
 		"coffee-script": "x",
 		"commander": ">= 0.5.2",
 		"cssom": "x",
-		"mustache": "x",
 		"minimatch": "x",
 		"nconf": "x",
 		"pkginfo": "x",
@@ -31,11 +30,11 @@
 		"mkdirp": "x",
 		"fstream": "x",
 		"b2t": "x",
-		"wrench": "x",
 		"semver": "x",
 		"uglify-js": ">= 1.1.1",
 		"xmldom": ">= 0.1.11",
-		"xpath": ">= 0.0.5"
+		"xpath": ">= 0.0.5",
+		"opmext-brix" : "x"
 	},
 	"devDependencies": {
 		"mocha" : "x"
