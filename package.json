@@ -1,15 +1,14 @@
 {
 	"author": "goto100 <admin@objectjs.org> (http://objectjs.org/)",
-	"name": "brix-bpm",
-	"description": "Brix Package Manager",
+	"name": "objectjs-opm",
+	"description": "ObjectJS Package Manager",
 	"version": "0.0.11",
-	"homepage": "https://github.com/etaoux/bpm",
+	"homepage": "https://github.com/ObjectJS/opm",
 	"repository": {
-		"url": "git://github.com/etaoux/bpm.git"
+		"url": "git://github.com/ObjectJS/opm.git"
 	},
 	"bin": {
-		"opm": "./bin/opm",
-		"bpm": "./bin/opm"
+		"opm": "./bin/opm"
 	},
 	"dependencies": {
 		"async" : "x",
