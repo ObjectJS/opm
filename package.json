@@ -16,6 +16,7 @@
 		"coffee-script": "x",
 		"commander": ">= 0.5.2",
 		"cssom": "x",
+		"mustache": "x",
 		"minimatch": "x",
 		"nconf": "x",
 		"pkginfo": "x",
@@ -38,6 +39,9 @@
 	},
 	"devDependencies": {
 		"mocha" : "x"
+	},
+	"scripts": {
+		"test" : "mocha"
 	},
 	"optionalDependencies": {},
 	"engines": {
