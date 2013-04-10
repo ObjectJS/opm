@@ -33,7 +33,6 @@
 		"uglify-js": ">= 1.1.1",
 		"xmldom": ">= 0.1.11",
 		"xpath": ">= 0.0.5",
-		"opmext-brix" : "x"
 	},
 	"devDependencies": {
 		"mocha" : "x"
